@@ -9,15 +9,15 @@ from sys import argv
 
 
 def factor(n):
-"""
-Factorizes a number into two smaller numbers.
+  """
+  Factorizes a number into two smaller numbers.
 
-Parameters:
-- n (int): The number to factorize.
+  Parameters:
+  - n (int): The number to factorize.
 
-Returns:
-None
-"""
+  Returns:
+  None
+  """
 
   for i in range(2, n // 2 + 1):
     if n % i == 0:
