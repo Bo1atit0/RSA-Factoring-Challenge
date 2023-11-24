@@ -3,7 +3,7 @@
 *main - main file
 *@argc: number of arguments
 *@argv: array of arguments
-*Returns: int
+*Return: int
 */
 
 int main(int argc, char *argv[])

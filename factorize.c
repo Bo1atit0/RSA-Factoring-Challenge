@@ -1,7 +1,7 @@
 #include "factor.h"
 /**
 *_factorize - prints the factors of a number
-*@n: number to factorize
+*@buffer: number to factorize
 *Return: void
 */
 
