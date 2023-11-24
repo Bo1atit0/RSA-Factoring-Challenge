@@ -1,0 +1,39 @@
+#!/usr/bin/python3
+
+"""
+Module that factorizes numbers into 
+two smaller numbers
+"""
+
+from sys import argv
+
+
+def factor(n):
+"""
+Factorizes a number into two smaller numbers.
+
+Parameters:
+- n (int): The number to factorize.
+
+Returns:
+None
+"""
+
+  for i in range(2, n // 2 + 1):
+    if n % i == 0:
+      j = n // i
+      print("{} = {} * {}".format(n, i, j))
+      return
+
+
+
+if len(argv) != 2:
+  print("Usage: factors <file>")
+  exit()
+with open(argv[1], "r") as file:
+  for line in file:
+    factor(int(line))
+    #print()
+  
+ 
+      
